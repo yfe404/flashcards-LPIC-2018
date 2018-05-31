@@ -3,12 +3,12 @@
   :ID:       BEC6BCCE-AA44-4D81-B0B5-D3F086DCFCF2
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 3
   :DRILL_AVERAGE_QUALITY: 1.0
   :DRILL_EASE: 2.5
   :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:13]
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:27]
   :END:
 Qu'est-ce qu'un système d'exploitation?
 
@@ -18,5 +18,282 @@ Un système d'exploitation est un programme ou un ensemble de programmes assuran
 la gestion de l'ordinateur et des périphériques. Il sert d'interface entre
  le matériel (hardware) et le logiciel (software). C'est un ensemble de programmes 
 très complexes dont le but est de rendre plus simple les programmes et l'utilisation de l'ordinateur.
+
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       858492C2-3186-4B89-9DCF-8B882B651775
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:31]
+  :END:
+Quels composants le système d'exploitation gère-t-il?
+
+** Réponse
+- la mémoire
+- les accès aux périphériques
+- les données sur les disques
+- les programmes
+- la sécurité
+- la collecte des informations
+
+* Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
+  :PROPERTIES:
+  :ID:       14B17EE8-01AF-4C80-93B4-FB4727DF605D
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:28]
+  :END:
+L'interface graphique fait-elle partie du système d'exploitation Linux?
+
+** Réponse
+L'interface graphique n'est pas un composant du système d'exploitation Linux qui n'en a pas besoin pour fonctionner
+ correctement. C'est un ensemble de plusieurs programmes classiques exécutés au-dessus du système d'exploitation, qu'il utilise. 
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       FD488284-D6A0-4D4E-9E5C-4361FADB71F6
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:32]
+  :END:
+Linux est un système d'exploitation de type Unix. Unix est multitâche et multi-utilisateurs. Que signifie multitâche?
+
+** Réponse
+Le système gère l'exécution simultanée de plusieurs programmes appelés des processus (Note: un vrai multitâche 
+nécessite d'avoir plusieurs microprocesseurs ou unités d'exécution, comme l'Hyper Threading par exemple).
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       8F2D1236-F9A6-45BB-9867-6F6DBE5BFF8E
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:29]
+  :END:
+Linux est un système d'exploitation de type Unix. Unix est multitâche et multi-utilisateurs. Que signifie multi-utilisateur?
+
+** Réponse
+Le système permet l'existence de plusieurs utilisateurs différents sur une même machine, connectés ou non
+ (un utilisateur peut faire tourner un programme sans être connecté, comme par exemple un serveur Internet).
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       D9CBE9F6-BD02-4807-B4C8-6812115E57DF
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:32]
+  :END:
+Qu'est-ce qu'un appel système?
+
+** Réponse
+Une fonction faisant partie de l'API proposée par le système d'exploitation et qui permet de communiquer avec celui-ci. 
+
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       044A6FCC-E0EA-4FE4-900D-39EFB8BFBAAB
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:29]
+  :END:
+Qu'est ce que la gestion des processus?
+
+** Réponse
+La gestion des processus assure la commutation des tâches et leur priorité. Ce composant s'occupe donc du multitâche. 
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       F87E54AC-34A1-406E-B163-2D3FDBB3EFBD
+  :END:
+Qu'est-ce que la gestion des entrées/sorties
+
+** Réponse
+La gestion des E/S s'occupe aussi bien de la lecture et de l'écriture des données sur vos disques durs mais aussi sur vos périphériques (carte son, imprimante, réseau etc.).
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       A36E29BD-F64D-435F-B9CB-BD894C467863
+  :END:
+Qu'est ce qu'un pilote?
+
+** Réponse
+Les pilotes ont pour role de gérer au plus bas niveau le matériel ou les structures logiques du matériel (par exemple les données d'une partition).
+
+* Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
+  :PROPERTIES:
+  :ID:       925012F0-A42D-4F66-8E2A-BEB5DB041352
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:30]
+  :END:
+Quel système d'exploitation est à l'origine d'Unix?
+
+** Réponse 
+[[https://fr.wikipedia.org/wiki/Multics][Multics]]
+
+* Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
+  :PROPERTIES:
+  :ID:       7855B568-0E41-4BAF-A41F-BB90AD10A621
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:33]
+  :END:
+Citez quelques personnes ayant contribué à la création d'Unix
+
+** Réponse
+- Ken Thompson (développeur chez Bell)
+- Dennis Ritchie (Bell)
+- Rudd Canada (Bell)
+- Brian Kernighan (Bell)
+
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       EBB196F1-93EA-4EA8-999E-32971D93AB76
+  :END:
+Que signifie Unix?
+
+** Réponse
+Uniplexed Information and Computing System 
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       EA1F9D8E-5CD0-46AE-88F4-6B9FBB3FC73F
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:29]
+  :END:
+Sur quelle machine Unix est apparu en premier ?
+
+** Réponse
+Le DEC PDP-7
+
+* Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
+  :PROPERTIES:
+  :ID:       FF842716-F15E-4272-8C83-C7AE6354370E
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:29]
+  :END:
+Pourquoi dit-on qu'Unix est portable?
+
+** Réponse
+Son code source est majoritairement écrit en C. Il peut donc être compilé pour différentes plateformes.
+
+* Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
+  :PROPERTIES:
+  :ID:       DDFDD967-DA2C-4434-B1B9-9CCCCE351A9E
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:30]
+  :END:
+Que signifie BSD?
+
+** Réponse
+Berkeley Software Distribution
+
+* Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
+  :PROPERTIES:
+  :ID:       8C8472EF-096D-48BE-9378-D12BA055C19D
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:29]
+  :END:
+Quelle est l'entreprise qui a la première écrit Unix?
+
+** Réponse
+AT&T
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       99E78937-61FB-42AB-84F4-DC912A6FB7F9
+  :END:
+Quels sont les deux principaux standards Unix.
+
+** Réponse
+BSD et System V
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       FE464175-A255-492C-A8FE-45290400915A
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:32]
+  :END:
+Citez quelques Unix propriétaires
+
+** Réponse
+Solaris, AIX, HP-UX, True64, SCO, Qnx, etc.
 
 
