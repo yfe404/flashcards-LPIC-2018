@@ -1,0 +1,12 @@
+* Flashcards-LPIC-2018
+Flashcards to prep [[https://www.lpi.org/our-certifications/lpic-1-overview][Linux Professional Institute Certification level 1 (System Administrator) ]]
+
+
+** Dependencies 
+- [[https://www.gnu.org/software/emacs/][Emacs]]
+- [[https://www.lpi.org/our-certifications/lpic-1-overview][Org-mode]]
+
+
+
+** Userful links
+- https://orgmode.org/worg/org-contrib/org-drill.html
