@@ -1,0 +1,22 @@
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       BEC6BCCE-AA44-4D81-B0B5-D3F086DCFCF2
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:13]
+  :END:
+Qu'est-ce qu'un système d'exploitation?
+
+** Réponse
+
+Un système d'exploitation est un programme ou un ensemble de programmes assurant 
+la gestion de l'ordinateur et des périphériques. Il sert d'interface entre
+ le matériel (hardware) et le logiciel (software). C'est un ensemble de programmes 
+très complexes dont le but est de rendre plus simple les programmes et l'utilisation de l'ordinateur.
+
+
