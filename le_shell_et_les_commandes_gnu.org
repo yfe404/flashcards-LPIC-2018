@@ -51,4 +51,50 @@ Comment chainer des commandes de sortes qu'elles s'exécutent séquentiellement?
 Il faut les séparer par un point virgule
 eg: ls;date;echo 'Hello World'
 
+* Question                                                            :drill:
+Il existe deux types de commandes quels sont-ils?
+
+** Réponse
+- Les commandes externes: ce sont les programmes binaires présents en tant que 
+fichiers sur le DD (ou autre support de données). Quand vous exécutez la 
+commande, ce fichier est chargé en mémoire puis exécuté en tant que processus.
+
+- Les commandes internes sont internes au shell et exécutées au sein de celui-ci.
+Ces commandes font partie du programme shell. Quand vous les exécutez, le shell
+exécute les fonctions définies en son sein correspondant à celles-ci.
+
+* Question                                                            :drill:
+Comment distinguer une commande externe d'une commande interne?
+
+** Réponse
+La commande interne =type= permet de faire cette distinction. 
+
+#+BEGIN_SRC sh
+$ type date
+date is hashed (/bin/date)
+#+END_SRC
+
+#+BEGIN_SRC sh
+$ type pwd
+pwd is a shell builtin
+#+END_SRC
+
+* Question                                                            :drill:
+Que fait le raccourci Ctrl+c?
+
+** Réponse
+Interruption du programme: il se termine
+
+* Question                                                            :drill:
+Que fait le raccourci Ctrl+z?
+
+** Réponse
+Stoppe le programme
+
+* Question                                                            :drill:
+Que fait le raccourci Ctrl+d?
+
+** Réponse
+Interrompt une saisie du prompt
+
 
