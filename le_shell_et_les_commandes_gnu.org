@@ -1,0 +1,54 @@
+* Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
+  :PROPERTIES:
+  :ID:       80A5DCFA-562E-4AA0-A7FF-970FFA60492D
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:23]
+  :END:
+Qu'est-ce qu'un interpréteur de commandes?
+
+** Réponse 
+L'interpréteur de commandes est un programme qui permet d'exécuter des instructions 
+que vous saisissez au clavier ou au sein d'un script et vous en retourne le résultat.
+Ce programme est appelé shell.
+
+* Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
+  :PROPERTIES:
+  :ID:       5AC66DD9-7162-4629-9B3C-0212A5D88086
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:23]
+  :END:
+Comment trouver la liste des shells présents sur votre distribution GNU/Linux?
+
+** Réponse
+cat /etc/shells
+
+
+* Question                                                            :drill:
+Comment modifier l'invite de commande?
+
+** Réponse
+Il faut modifier la variable d'environnement PS1
+
+
+* Question                                                            :drill:
+Comment chainer des commandes de sortes qu'elles s'exécutent séquentiellement?
+
+** Réponse
+Il faut les séparer par un point virgule
+eg: ls;date;echo 'Hello World'
+
+
