@@ -7,6 +7,21 @@ Flashcards to prep [[https://www.lpi.org/our-certifications/lpic-1-overview][Lin
 - [[https://www.lpi.org/our-certifications/lpic-1-overview][Org-mode]]
 
 
+** Modifications in my .emacs
+
+The following snippet allows to insert org-drill items interactively using the =C-cp= shortcut.
+
+#+BEGIN_SRC elisp
+
+(define-skeleton org-drill-skeleton
+  "Insert question and answer item in org-drill format"
+  ""
+  "* Question :drill:\n"  (skeleton-read "Question? ")
+  "?\n\n** Answer\n"  (skeleton-read "Answer? "))
+
+(global-set-key "\C-cp" 'org-drill-skeleton)
+#+END_SRC
+
 
 ** Userful links
 - https://orgmode.org/worg/org-contrib/org-drill.html
