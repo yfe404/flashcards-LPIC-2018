@@ -38,6 +38,18 @@ cat /etc/shells
 
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
+  :PROPERTIES:
+  :ID:       D4B0BD56-A144-4621-B1F2-47BCAFFB83B3
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:26]
+  :END:
 Comment modifier l'invite de commande?
 
 ** Réponse
@@ -45,6 +57,18 @@ Il faut modifier la variable d'environnement PS1
 
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
+  :PROPERTIES:
+  :ID:       59D6250F-6931-4228-9175-2E1FC962D58E
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:27]
+  :END:
 Comment chainer des commandes de sortes qu'elles s'exécutent séquentiellement?
 
 ** Réponse
@@ -52,6 +76,18 @@ Il faut les séparer par un point virgule
 eg: ls;date;echo 'Hello World'
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
+  :PROPERTIES:
+  :ID:       EECB4568-B637-4936-9C2A-9F5373A7192E
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:37]
+  :END:
 Il existe deux types de commandes quels sont-ils?
 
 ** Réponse
@@ -64,6 +100,18 @@ Ces commandes font partie du programme shell. Quand vous les exécutez, le shell
 exécute les fonctions définies en son sein correspondant à celles-ci.
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
+  :PROPERTIES:
+  :ID:       844368E5-D15A-40AF-A3ED-0FBDC80BD0C8
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:26]
+  :END:
 Comment distinguer une commande externe d'une commande interne?
 
 ** Réponse
@@ -80,21 +128,125 @@ pwd is a shell builtin
 #+END_SRC
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
+  :PROPERTIES:
+  :ID:       DE8F1D21-7E05-4E39-AA5E-EEAEF8FDAB86
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:27]
+  :END:
 Que fait le raccourci Ctrl+c?
 
 ** Réponse
 Interruption du programme: il se termine
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
+  :PROPERTIES:
+  :ID:       B7899E2C-CCEB-4D85-8E32-EA626D5CE4E6
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:37]
+  :END:
 Que fait le raccourci Ctrl+z?
 
 ** Réponse
 Stoppe le programme
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
+  :PROPERTIES:
+  :ID:       76F0CE8B-4203-4FF8-A03E-99CB77D1D999
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:27]
+  :END:
 Que fait le raccourci Ctrl+d?
 
 ** Réponse
 Interrompt une saisie du prompt
+
+
+* Question                                                            :drill:
+  :PROPERTIES:
+  :ID:       941AF075-954C-413F-B233-4069A671A4B5
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 17:55]
+  :END:
+A quoi sert le système de fichiers?
+
+** Réponse
+Il définit l'organisation des données sur un support de stockage c'est à dire comment sont 
+organisés les fichiers par le système d'exploitation.
+
+
+* Question :drill:
+Quels sont les trois types de fichiers sous Linux?
+
+** Answer
+ordinaires (ou réguliers, ordinary, regular), catalogue et spéciaux
+
+* Question :drill:
+Qu'est-ce qu'un fichier régulier?
+
+** Answer
+Ce sont des fichiers classiques qui contiennent des données (images, texte, audio, binaire, etc.)
+
+* Question :drill:
+Comment distinguer un fichier régulier d'un autre type de fichier?
+
+** Answer
+On peut par exemple utiliser la commande ls -F ou la commande file
+
+* Question :drill:
+Qu'est ce qu'un fichier catalogue?
+
+** Answer
+Un fichier catalogue est un répertoire.
+Les répertoires permettent d'organiser le DD en créant une hierarchie. 
+Un répertoire n'est rien d'autre qu'un fichier particulier contenant la liste des 
+fichiers eux-mêmes présents dans ce répertoire, comme un index.
+
+
+* Question :drill:
+Qu'est ce qu'un fichier spécial?
+
+** Answer
+Il existe plusieurs genres de fichiers spéciaux.
+Ils se trouvent principalement dans le dossier /dev s'ils représentent des péréphériques.
+
+Ce sont principalement des fichiers servant d'interface pour les divers périphériques.
+
+* Question :drill:
+Quelle est la taille maxi d'un nom de fichier sur les systèmes Unix actuels?
+
+** Answer
+255 caractères extension incluse.
+
+
+
+
+
 
 
