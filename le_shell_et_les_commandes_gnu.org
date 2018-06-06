@@ -255,7 +255,7 @@ octets si une variable appelée =POSIX_CORRECT= est positionnée) du contenu du 
 Dans -rw-r--r-- qu'indique le premier caractère?
 
 ** Answer
-Le premier caractère représente le type de fichier (-: orginaire, d: repértoire, l: lien symbolique...);
+Le premier caractère représente le type de fichier (-: ordinaire, d: repértoire, l: lien symbolique...);
 
 Les autres par bloc de trois, les droits pour l'utilisateur (rw-), le groupe (r--) et tous (r--).
 
