@@ -244,6 +244,27 @@ Quelle est la taille maxi d'un nom de fichier sur les systèmes Unix actuels?
 ** Answer
 255 caractères extension incluse.
 
+* Question :drill:
+Dans le résultat de ls -l qu'indique le total?
+
+** Answer
+La ligne total indique la taille totale en blocs de 1024 octets (ou 512
+octets si une variable appelée =POSIX_CORRECT= est positionnée) du contenu du repertoire.
+
+* Question :drill:
+Dans -rw-r--r-- qu'indique le premier caractère?
+
+** Answer
+Le premier caractère représente le type de fichier (-: orginaire, d: repértoire, l: lien symbolique...);
+
+Les autres par bloc de trois, les droits pour l'utilisateur (rw-), le groupe (r--) et tous (r--).
+
+* Question :drill:
+La commande touch est utile pour créer un fichier vide, ce n'est pas son usage principale. A quoi peut elle servir?
+
+** Answer
+Si vous lancez la commande touch sur un fichier existant, sa date de modification est changée. 
+Ceci peut être utile pour forcer les sauvegardes incrémentales sur des fichiers.
 
 
 
