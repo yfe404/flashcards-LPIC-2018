@@ -305,5 +305,22 @@ Quelle est la commande de céation de lien symbolique?
 ** Answer
 ln -s fichier lien
 
+* Question :drill:
+La suppression d'un lien symbolique entraine t-elle la suppression du fichier pointé?
 
+** Answer
+Non
 
+* Question :drill:
+La suppression du fichier pointé entraine t-elle la suppresion du lien symbolique?
+
+** Answer
+La suppression du fichier pointé n'entraine pas la suppresion du lien symbolique. 
+Dans ce cas le lien pointe dans le vide.
+
+* Question :drill:
+Un lien qui pointe dans le vide n'est pas forcément mauvais. Quel peut en être l'usage?
+
+** Answer
+Il est possible de créer des liens vers des supports amovibles comme des clés USB.
+Dans ce cas le lien redevient actif lorsque le support est inséré et/ou que la cible est de nouveau présente.
