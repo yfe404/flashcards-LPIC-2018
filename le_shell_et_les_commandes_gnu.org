@@ -266,8 +266,44 @@ La commande touch est utile pour créer un fichier vide, ce n'est pas son usage 
 Si vous lancez la commande touch sur un fichier existant, sa date de modification est changée. 
 Ceci peut être utile pour forcer les sauvegardes incrémentales sur des fichiers.
 
+* Question :drill:
+A quoi sert l'option -u dans la commande =mv=?
+
+** Answer
+Si le fichier de destination existe avec une date plus récente, cela vous évite de l'écraser.
+
+* Question :drill:
+Comment supprimer un fichier appelé -i avec rm?
+
+** Answer
+Il y a deux solutions:
+- Utiliser l'option GNU -- signifiant la fin des paramètres et le début des arguments:
+#+BEGIN_SRC sh
+rm -- -i
+#+END_SRC
+- Rajouter un chemin, relatif ou complet, avant le tiret:
+#+BEGIN_SRC sh
+rm ./-i
+#+END_SRC
 
 
+* Question :drill:
+Qu'est ce qu'un lien symbolique?
+
+** Answer
+Un lien est un fichier spécial contenant comme information un chemin vers un autre fichier. C'est une sorte d'alias.
+
+* Question :drill:
+La commande de création de lien symboliques vérifie t-elle l'existance du fichier pointé?
+
+** Answer
+Non, il est même possible de de créer des liens sur des fichiers qui n'existent pas avec le paramètre =-f=
+
+* Question :drill:
+Quelle est la commande de céation de lien symbolique?
+
+** Answer
+ln -s fichier lien
 
 
 
