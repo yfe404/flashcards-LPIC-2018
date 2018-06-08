@@ -324,3 +324,21 @@ Un lien qui pointe dans le vide n'est pas forcément mauvais. Quel peut en être
 ** Answer
 Il est possible de créer des liens vers des supports amovibles comme des clés USB.
 Dans ce cas le lien redevient actif lorsque le support est inséré et/ou que la cible est de nouveau présente.
+
+
+* Question :drill:
+Que sont les wildcards?
+
+** Answer
+Ce sont des caractères de substitution, ils remplacent un ou plusieurs caractères:
+
+| Caractère(s) | Rôle                                                   |
+|--------------+--------------------------------------------------------|
+| =*=          | Remplace une chaine de longueur variable, même vide    |
+| =?=          | Remplace une chaine unique quelconque                  |
+| =[...]=      | Une série ou une plage de caractères                   |
+| =[a-b]=      | Un caractère parmi la plage indiquée (de a à b inclus) |
+| =[!...]=     | Inversion de la recherche                              |
+| =[^...]=     | Idem                                                   |
+
+
