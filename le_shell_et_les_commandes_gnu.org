@@ -1,15 +1,14 @@
 * Question                                                            :drill:
-  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       80A5DCFA-562E-4AA0-A7FF-970FFA60492D
-  :DRILL_LAST_INTERVAL: 4.0
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:23]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-06-09 Sam 14:42]
   :END:
 Qu'est-ce qu'un interpréteur de commandes?
 
@@ -19,17 +18,17 @@ que vous saisissez au clavier ou au sein d'un script et vous en retourne le rés
 Ce programme est appelé shell.
 
 * Question                                                            :drill:
-  SCHEDULED: <2018-06-05 Mar>
+  SCHEDULED: <2018-06-20 Mer>
   :PROPERTIES:
   :ID:       5AC66DD9-7162-4629-9B3C-0212A5D88086
-  :DRILL_LAST_INTERVAL: 4.14
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_LAST_INTERVAL: 11.1407
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 2
   :DRILL_FAILURE_COUNT: 0
   :DRILL_AVERAGE_QUALITY: 5.0
-  :DRILL_EASE: 2.6
+  :DRILL_EASE: 2.7
   :DRILL_LAST_QUALITY: 5
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:23]
+  :DRILL_LAST_REVIEWED: [2018-06-09 Sam 14:42]
   :END:
 Comment trouver la liste des shells présents sur votre distribution GNU/Linux?
 
@@ -76,17 +75,17 @@ Il faut les séparer par un point virgule
 eg: ls;date;echo 'Hello World'
 
 * Question                                                            :drill:
-  SCHEDULED: <2018-06-08 Ven>
+  SCHEDULED: <2018-06-19 Mar>
   :PROPERTIES:
   :ID:       EECB4568-B637-4936-9C2A-9F5373A7192E
-  :DRILL_LAST_INTERVAL: 4.14
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_LAST_INTERVAL: 10.3873
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 3
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 3.5
-  :DRILL_EASE: 2.6
-  :DRILL_LAST_QUALITY: 5
-  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:37]
+  :DRILL_AVERAGE_QUALITY: 3.333
+  :DRILL_EASE: 2.46
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-09 Sam 14:43]
   :END:
 Il existe deux types de commandes quels sont-ils?
 
@@ -187,12 +186,12 @@ Interrompt une saisie du prompt
   :ID:       941AF075-954C-413F-B233-4069A671A4B5
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.5
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 17:55]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-06-09 Sam 14:41]
   :END:
 A quoi sert le système de fichiers?
 
@@ -202,24 +201,36 @@ organisés les fichiers par le système d'exploitation.
 
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       46C6CF42-A72D-4B8D-8973-15208F08F4E5
+  :END:
 Quels sont les trois types de fichiers sous Linux?
 
 ** Answer
 ordinaires (ou réguliers, ordinary, regular), catalogue et spéciaux
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       1C2C4F4F-77AB-4E41-9C4B-FB362E71272A
+  :END:
 Qu'est-ce qu'un fichier régulier?
 
 ** Answer
 Ce sont des fichiers classiques qui contiennent des données (images, texte, audio, binaire, etc.)
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       A9FEF81A-1863-4169-82A2-91BBA0ECE5E8
+  :END:
 Comment distinguer un fichier régulier d'un autre type de fichier?
 
 ** Answer
 On peut par exemple utiliser la commande ls -F ou la commande file
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       84ACCF8F-BB6C-41C9-8CE2-1F54B2C5A0CC
+  :END:
 Qu'est ce qu'un fichier catalogue?
 
 ** Answer
@@ -230,6 +241,9 @@ fichiers eux-mêmes présents dans ce répertoire, comme un index.
 
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       FD7A0ABB-2407-44E5-B392-2FE68266399D
+  :END:
 Qu'est ce qu'un fichier spécial?
 
 ** Answer
@@ -239,12 +253,18 @@ Ils se trouvent principalement dans le dossier /dev s'ils représentent des pér
 Ce sont principalement des fichiers servant d'interface pour les divers périphériques.
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       2DFFD2FF-50CF-4067-8266-E5A3D87FA07D
+  :END:
 Quelle est la taille maxi d'un nom de fichier sur les systèmes Unix actuels?
 
 ** Answer
 255 caractères extension incluse.
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       4367D069-B19C-4D86-9FC6-660245D2261C
+  :END:
 Dans le résultat de ls -l qu'indique le total?
 
 ** Answer
@@ -252,6 +272,9 @@ La ligne total indique la taille totale en blocs de 1024 octets (ou 512
 octets si une variable appelée =POSIX_CORRECT= est positionnée) du contenu du repertoire.
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       5DD91381-FB48-4A56-ACF1-262755806516
+  :END:
 Dans -rw-r--r-- qu'indique le premier caractère?
 
 ** Answer
@@ -260,6 +283,9 @@ Le premier caractère représente le type de fichier (-: ordinaire, d: repértoi
 Les autres par bloc de trois, les droits pour l'utilisateur (rw-), le groupe (r--) et tous (r--).
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       1C876A25-2530-454A-897C-1D693D30FE89
+  :END:
 La commande touch est utile pour créer un fichier vide, ce n'est pas son usage principale. A quoi peut elle servir?
 
 ** Answer
@@ -267,12 +293,18 @@ Si vous lancez la commande touch sur un fichier existant, sa date de modificatio
 Ceci peut être utile pour forcer les sauvegardes incrémentales sur des fichiers.
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       06910D82-746B-47CF-AD97-1673EC6E7F76
+  :END:
 A quoi sert l'option -u dans la commande =mv=?
 
 ** Answer
 Si le fichier de destination existe avec une date plus récente, cela vous évite de l'écraser.
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       8EB2C7A5-13E3-4093-BC1B-63158D664EE7
+  :END:
 Comment supprimer un fichier appelé -i avec rm?
 
 ** Answer
@@ -288,30 +320,45 @@ rm ./-i
 
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       7CAB3ADC-42AD-4952-AC96-2DED786E97CA
+  :END:
 Qu'est ce qu'un lien symbolique?
 
 ** Answer
 Un lien est un fichier spécial contenant comme information un chemin vers un autre fichier. C'est une sorte d'alias.
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       877D37DF-2FCA-49F5-875B-D089E97F2022
+  :END:
 La commande de création de lien symboliques vérifie t-elle l'existance du fichier pointé?
 
 ** Answer
 Non, il est même possible de de créer des liens sur des fichiers qui n'existent pas avec le paramètre =-f=
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       AAB2E1B3-F3D8-455D-A9A8-5D21EB450D0F
+  :END:
 Quelle est la commande de céation de lien symbolique?
 
 ** Answer
 ln -s fichier lien
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       4A5E14F4-612B-40E7-AE15-893DA63A105E
+  :END:
 La suppression d'un lien symbolique entraine t-elle la suppression du fichier pointé?
 
 ** Answer
 Non
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       338335B2-C7CE-4A33-8292-8D39034B018A
+  :END:
 La suppression du fichier pointé entraine t-elle la suppresion du lien symbolique?
 
 ** Answer
@@ -319,6 +366,9 @@ La suppression du fichier pointé n'entraine pas la suppresion du lien symboliqu
 Dans ce cas le lien pointe dans le vide.
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       3922F75B-5692-48AC-BAA8-05883C9485C9
+  :END:
 Un lien qui pointe dans le vide n'est pas forcément mauvais. Quel peut en être l'usage?
 
 ** Answer
@@ -327,6 +377,9 @@ Dans ce cas le lien redevient actif lorsque le support est inséré et/ou que la
 
 
 * Question :drill:
+  :PROPERTIES:
+  :ID:       968AFE5B-F949-469B-9AC3-D85AE172DA31
+  :END:
 Que sont les wildcards?
 
 ** Answer
@@ -340,5 +393,73 @@ Ce sont des caractères de substitution, ils remplacent un ou plusieurs caractè
 | =[a-b]=      | Un caractère parmi la plage indiquée (de a à b inclus) |
 | =[!...]=     | Inversion de la recherche                              |
 | =[^...]=     | Idem                                                   |
+
+
+* Question :drill:
+Que fait la commande =find=?
+
+** Answer
+La commande find permet de rechercher de fichiers dans une arborescence du système de fichiers
+à l'aide de critères et donne la possibilité d'agir sur les résultats retournés.
+
+* Question :drill:
+A quoi sert le paramètre =-name= de la commande find?
+
+
+** Answer
+=-name= permet une selection par noms de fichiers. Il est possible d'utiliser les wildcards.
+
+
+* Question :drill:
+A quoi sert le paramètre =-type= de la commande find?
+
+** Answer
+=-type= permet une selection par type de fichier:
+
+| Code | Type de fichier                   |
+|------+-----------------------------------|
+| b    | Fichier spécial en mode block     |
+| c    | Fichier spécial en mode caractère |
+| d    | Répertoire (directory)            |
+| f    | Fichier ordinaire                 |
+| l    | Lien symbolique                   |
+| p    | Tube nommé (pipe)                 |
+| s    | Socket (Connexion réseau)         |
+
+
+* Question :drill:
+A quoi sert le paramètre =-user= / =-group= de la commande find?
+
+** Answer
+=-user= et =-group= permettent une recherche sur le propriétaire et le groupe d'appartenance des fichiers.
+Il est possible de préciser le nom (utilisateur, groupe) ou l'ID (UID, GID).
+
+#+BEGIN_SRC sh
+find . type f -user seb -group users -print
+#+END_SRC
+
+* Question :drill:
+
+A quoi sert le paramètre =-size= de la commande find?
+
+** Answer
+=-size= permet de préciser la taille des fichiers recherchés. Elle travaille par défaut en blocs. 
+Ici un bloc fait 512 octets.
+
+La valeur située après le critère peut être suivi d'un des caractères suivants:
+
+| Caractère | Signification                                           |
+|-----------+---------------------------------------------------------|
+| b         | Par défaut si non précisé, c'est un bloc de 512 octets. |
+| c         | C'est un caractère au sens ASCII, donc 1 octet.         |
+| w         | C'est un mot de 2 octets.                               |
+| k         | 1 Ko (1024 octets).                                     |
+| M         | 1 Mo (1024 ko).                                         |
+| G         | 1 Go (1024 Mo).                                         |
+
+La valeur peut être précédée d'un + ou -. Sans cette indication, la taille recherchée doit correspondre exactement.
+
+Le critère de recherche =-empty= peut être utilisé à la place de =-size 0=
+
 
 
