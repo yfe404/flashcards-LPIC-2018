@@ -1,14 +1,15 @@
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
   :PROPERTIES:
   :ID:       BEC6BCCE-AA44-4D81-B0B5-D3F086DCFCF2
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 3
-  :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_FAILURE_COUNT: 7
+  :DRILL_AVERAGE_QUALITY: 1.625
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:27]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:32]
   :END:
 Qu'est-ce qu'un système d'exploitation?
 
@@ -21,16 +22,17 @@ très complexes dont le but est de rendre plus simple les programmes et l'utilis
 
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       858492C2-3186-4B89-9DCF-8B882B651775
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:31]
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:11]
   :END:
 Quels composants le système d'exploitation gère-t-il?
 
@@ -62,16 +64,17 @@ L'interface graphique n'est pas un composant du système d'exploitation Linux qu
  correctement. C'est un ensemble de plusieurs programmes classiques exécutés au-dessus du système d'exploitation, qu'il utilise. 
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       FD488284-D6A0-4D4E-9E5C-4361FADB71F6
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:32]
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.333
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:11]
   :END:
 Linux est un système d'exploitation de type Unix. Unix est multitâche et multi-utilisateurs. Que signifie multitâche?
 
@@ -80,16 +83,17 @@ Le système gère l'exécution simultanée de plusieurs programmes appelés des 
 nécessite d'avoir plusieurs microprocesseurs ou unités d'exécution, comme l'Hyper Threading par exemple).
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       8F2D1236-F9A6-45BB-9867-6F6DBE5BFF8E
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 2.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:29]
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:07]
   :END:
 Linux est un système d'exploitation de type Unix. Unix est multitâche et multi-utilisateurs. Que signifie multi-utilisateur?
 
@@ -98,16 +102,17 @@ Le système permet l'existence de plusieurs utilisateurs différents sur une mê
  (un utilisateur peut faire tourner un programme sans être connecté, comme par exemple un serveur Internet).
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       D9CBE9F6-BD02-4807-B4C8-6812115E57DF
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:32]
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:07]
   :END:
 Qu'est-ce qu'un appel système?
 
@@ -116,16 +121,17 @@ Une fonction faisant partie de l'API proposée par le système d'exploitation et
 
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
   :PROPERTIES:
   :ID:       044A6FCC-E0EA-4FE4-900D-39EFB8BFBAAB
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:29]
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 6
+  :DRILL_FAILURE_COUNT: 5
+  :DRILL_AVERAGE_QUALITY: 1.833
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:31]
   :END:
 Qu'est ce que la gestion des processus?
 
@@ -133,8 +139,17 @@ Qu'est ce que la gestion des processus?
 La gestion des processus assure la commutation des tâches et leur priorité. Ce composant s'occupe donc du multitâche. 
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       F87E54AC-34A1-406E-B163-2D3FDBB3EFBD
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:13]
   :END:
 Qu'est-ce que la gestion des entrées/sorties
 
@@ -142,8 +157,17 @@ Qu'est-ce que la gestion des entrées/sorties
 La gestion des E/S s'occupe aussi bien de la lecture et de l'écriture des données sur vos disques durs mais aussi sur vos périphériques (carte son, imprimante, réseau etc.).
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-08 Ven>
   :PROPERTIES:
   :ID:       A36E29BD-F64D-435F-B9CB-BD894C467863
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 7
+  :DRILL_FAILURE_COUNT: 6
+  :DRILL_AVERAGE_QUALITY: 1.714
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-04 Lun 16:33]
   :END:
 Qu'est ce qu'un pilote?
 
@@ -191,8 +215,17 @@ Citez quelques personnes ayant contribué à la création d'Unix
 
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       EBB196F1-93EA-4EA8-999E-32971D93AB76
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.333
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:15]
   :END:
 Que signifie Unix?
 
@@ -200,16 +233,17 @@ Que signifie Unix?
 Uniplexed Information and Computing System 
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       EA1F9D8E-5CD0-46AE-88F4-6B9FBB3FC73F
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:29]
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:12]
   :END:
 Sur quelle machine Unix est apparu en premier ?
 
@@ -271,8 +305,17 @@ Quelle est l'entreprise qui a la première écrit Unix?
 AT&T
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       99E78937-61FB-42AB-84F4-DC912A6FB7F9
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:10]
   :END:
 Quels sont les deux principaux standards Unix.
 
@@ -280,16 +323,17 @@ Quels sont les deux principaux standards Unix.
 BSD et System V
 
 * Question                                                            :drill:
+  SCHEDULED: <2018-06-05 Mar>
   :PROPERTIES:
   :ID:       FE464175-A255-492C-A8FE-45290400915A
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 01:32]
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-01 Ven 22:14]
   :END:
 Citez quelques Unix propriétaires
 
